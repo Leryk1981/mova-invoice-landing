@@ -56,6 +56,22 @@ Before starting, make sure you have the following installed:
 
 ---
 
+## Environment Variables (.env.local)
+
+```
+STRIPE_SECRET_KEY=sk_test_...
+STRIPE_PRICE_ID=price_123456  # €99/mo subscription
+EMAILJS_SERVICE_ID=service_abc123
+EMAILJS_TEMPLATE_ID=template_xyz
+EMAILJS_PUBLIC_KEY=user_def456
+
+# Create Stripe product first:
+# 1. stripe.com → Products → New → €99/mo recurring
+# 2. Copy Price ID → paste here
+```
+
+---
+
 ## Customization
 
 1. **Edit colors**: Update `globals.css` for primary, secondary, background, and accent colors.
