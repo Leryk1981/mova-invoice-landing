@@ -1,12 +1,12 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteName: 'MOVA Battery DPP',
+    siteUrl: 'https://mova-dpp.com',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'Battery Pass Compliance 2027 | MOVA - Annex XIII Ready',
+        description: 'EU Battery Regulation Annex XIII passports in 5 minutes. No code required. Battery Pass Content Guidance compliant.',
     },
     language: 'en-us',
     locale: 'en-US',
-    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // or use a string for the logo e.g. "TechStartup"
-    googleAnalyticsId: '', // e.g. G-XXXXXXX,
+    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`,
+    googleAnalyticsId: '',
 }

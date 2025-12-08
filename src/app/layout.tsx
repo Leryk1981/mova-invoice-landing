@@ -12,27 +12,19 @@ const manrope = Manrope({ subsets: ['latin'] });
 const sourceSans = Source_Sans_3({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: siteDetails.metadata.title,
-  description: siteDetails.metadata.description,
+  title: 'Battery Pass Compliance 2027 | MOVA - Annex XIII Ready',
+  description: 'EU Battery Regulation Annex XIII passports in 5 minutes. No code required. Battery Pass Content Guidance compliant.',
   openGraph: {
-    title: siteDetails.metadata.title,
-    description: siteDetails.metadata.description,
-    url: siteDetails.siteUrl,
-    type: 'website',
-    images: [
-      {
-        url: '/images/og-image.jpg',
-        width: 1200,
-        height: 675,
-        alt: siteDetails.siteName,
-      },
-    ],
+    title: 'Battery Pass 2027-Ready | MOVA',
+    description: 'EU Annex XIII compliance for SMB battery makers',
+    images: '/og-battery-dpp.jpg',
+    url: 'https://mova-dpp.com',
   },
   twitter: {
     card: 'summary_large_image',
-    title: siteDetails.metadata.title,
-    description: siteDetails.metadata.description,
-    images: ['/images/twitter-image.jpg'],
+    title: 'Battery Pass Compliance 2027-Ready',
+    description: 'Annex XIII passports in 5 minutes',
+    images: '/og-battery-dpp.jpg',
   },
 };
 
