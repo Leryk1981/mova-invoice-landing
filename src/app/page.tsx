@@ -1,46 +1,9 @@
-import Hero from "@/components/Hero";
-import Testimonials from "@/components/Testimonials";
-import Pricing from "@/components/Pricing/Pricing";
-import FAQ from "@/components/FAQ";
-import Logos from "@/components/Logos";
-import Benefits from "@/components/Benefits/Benefits";
-import Container from "@/components/Container";
-import Section from "@/components/Section";
-import Stats from "@/components/Stats";
-import CTA from "@/components/CTA";
+// REPLACE Hero content
+<h1 className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-emerald-500 via-emerald-400 to-blue-600 bg-clip-text text-transparent mb-6">
+  Battery Pass <span className="text-amber-400">2027</span>
+</h1>
+<p className="text-xl md:text-2xl text-slate-300 max-w-2xl mb-12">
+  EU Annex XIII passports generated in 5 minutes. 
+  No code required.
+</p>
 
-const HomePage: React.FC = () => {
-  return (
-    <>
-      <Hero />
-      <Logos />
-      <Container>
-        <Benefits />
-
-        <Section
-          id="pricing"
-          title="Pricing"
-          description="Simple, transparent pricing. No surprises."
-        >
-          <Pricing />
-        </Section>
-
-        <Section
-          id="testimonials"
-          title="What Our Clients Say"
-          description="Hear from those who have partnered with us."
-        >
-          <Testimonials />
-        </Section>
-
-        <FAQ />
-
-        <Stats />
-        
-        <CTA />
-      </Container>
-    </>
-  );
-};
-
-export default HomePage;
