@@ -12,19 +12,19 @@ const manrope = Manrope({ subsets: ['latin'] });
 const sourceSans = Source_Sans_3({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Battery Pass Compliance 2027 | MOVA - Annex XIII Ready',
-  description: 'EU Battery Regulation Annex XIII passports in 5 minutes. No code required. Battery Pass Content Guidance compliant.',
+  title: 'MOVA Invoice | Rechnungs-Workflows mit sevDesk ohne Banking',
+  description: 'Deterministische Rechnungs-Workflows mit sevDesk. Kein Banking-Zugriff erforderlich. Evidence-Log und Perioden-Export.',
   openGraph: {
-    title: 'Battery Pass 2027-Ready | MOVA',
-    description: 'EU Annex XIII compliance for SMB battery makers',
-    images: '/og-battery-dpp.jpg',
-    url: 'https://mova-dpp.com',
+    title: 'MOVA Invoice | sevDesk Workflow Layer',
+    description: 'Automatisiere Rechnungen mit Evidence-Log und Perioden-Export. Kein Banking-Zugriff erforderlich.',
+    images: '/images/hero-mockup.webp',
+    url: 'https://mova-invoice.com',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Battery Pass Compliance 2027-Ready',
-    description: 'Annex XIII passports in 5 minutes',
-    images: '/og-battery-dpp.jpg',
+    title: 'MOVA Invoice | sevDesk Workflow Layer',
+    description: 'Deterministische Rechnungs-Workflows ohne Banking-Zugriff.',
+    images: '/images/hero-mockup.webp',
   },
 };
 
@@ -34,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="de">
       <body
         className={`${manrope.className} ${sourceSans.className} antialiased`}
       >

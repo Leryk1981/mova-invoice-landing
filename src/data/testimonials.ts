@@ -3,21 +3,21 @@ import { siteDetails } from "./siteDetails";
 
 export const testimonials: ITestimonial[] = [
     {
-        name: 'John Smith',
-        role: 'CEO at Company',
-        message: `${siteDetails.siteName}'s AI-driven insights have transformed how we approach financial planning for our clients. It's an invaluable resource in the modern financial landscape.`,
+        name: 'Pilotkunde',
+        role: 'Praxisinhaber',
+        message: `${siteDetails.siteName} macht unseren Rechnungsablauf nachvollziehbar, ohne dass wir am Buchhaltungs-Setup r&uuml;tteln mussten.`,
         avatar: '/images/testimonial-1.webp',
     },
     {
-        name: 'Jane Doe',
-        role: 'CTO at Startup',
-        message: `As a CTO, I'm impressed by ${siteDetails.siteName}'s robust security measures and seamless integrations. It's rare to find an app that balances user-friendliness with such advanced technology.`,
+        name: 'Operations',
+        role: 'Agentur',
+        message: `Der Dry-Run vor dem Live-Start spart uns Fehler &ndash; und das Evidence-Log ist Gold wert.`,
         avatar: '/images/testimonial-2.webp',
     },
     {
-        name: 'Emily Johnson',
-        role: 'Product Manager',
-        message: `${siteDetails.siteName} is revolutionizing personal finance management. Its intuitive design and powerful features make it an indispensable tool for anyone serious about financial growth.`,
+        name: 'Freelancer',
+        role: 'Beratung',
+        message: `Keine Bank-Anbindung, kein Risiko &ndash; trotzdem ein klarer Workflow mit sauberen Exporten.`,
         avatar: '/images/testimonial-3.webp',
     },
 ];

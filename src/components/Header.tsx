@@ -9,6 +9,7 @@ import { FaFingerprint } from 'react-icons/fa';
 import Container from './Container';
 import { siteDetails } from '@/data/siteDetails';
 import { menuItems } from '@/data/menuItems';
+import { pilotMailto } from '@/data/links';
 
 const Header: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -39,8 +40,8 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
-                            <Link href="#pricing" className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors">
-                                Start Beta
+                            <Link href={pilotMailto} className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors">
+                                Pilot anfragen
                             </Link>
                         </li>
                     </ul>
@@ -85,8 +86,8 @@ const Header: React.FC = () => {
                             </li>
                         ))}
                         <li>
-                            <Link href="#pricing" className="text-black bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit" onClick={toggleMenu}>
-                                Start Beta
+                            <Link href={pilotMailto} className="text-black bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit" onClick={toggleMenu}>
+                                Pilot anfragen
                             </Link>
                         </li>
                     </ul>

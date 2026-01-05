@@ -1,37 +1,37 @@
 const solutions = [
   {
-    icon: "⚡",
-    title: "AI Schema Generator",
-    desc: "Parses Battery Regulation Annex XIII → generates production-ready JSON Schema",
-    color: "from-emerald-500 to-emerald-600",
+    icon: "🧾",
+    title: "Evidence-Log",
+    desc: "Jeder Schritt ist nachvollziehbar: wer/was/wann inkl. Request-ID.",
+    color: "from-emerald-500 to-teal-500",
   },
   {
-    icon: "🔗",
-    title: "QR Passport Flow",
-    desc: "QR scan → MOVA envelope → full passport + episode audit trail",
-    color: "from-blue-500 to-blue-600",
+    icon: "🧭",
+    title: "Deterministische Outputs",
+    desc: "Gleiche Eingabe, gleiches Ergebnis &ndash; auditierbar und reproduzierbar.",
+    color: "from-blue-500 to-indigo-600",
   },
   {
-    icon: "🔄",
-    title: "Full Lifecycle",
-    desc: "Manufacturer → Verifier → Recycler complete workflow",
-    color: "from-purple-500 to-indigo-600",
+    icon: "📦",
+    title: "Perioden-Export Pack",
+    desc: "Quartal/Jahr als Paket (PDF + CSV + Journal).",
+    color: "from-amber-500 to-orange-500",
   },
   {
-    icon: "✅",
-    title: "100% Compliance",
-    desc: "Annex XIII + Battery Pass Content Guidance validated",
-    color: "from-green-500 to-emerald-600",
+    icon: "🔒",
+    title: "Gateway Security",
+    desc: "Closed kitchen: Domain-Worker nur &uuml;ber das Gateway.",
+    color: "from-purple-500 to-pink-500",
   },
 ];
 
 const SolutionSection = () => {
   return (
-    <section id="solution" className="py-32 bg-gradient-to-b from-slate-950/90 via-slate-900/80 to-slate-950/90">
+    <section id="features" className="py-32 bg-gradient-to-b from-slate-950/90 via-slate-900/80 to-slate-950/90">
       <div className="max-w-6xl mx-auto px-6 lg:px-8 text-center">
-        <h2 className="text-4xl md:text-5xl font-bold text-slate-100 mb-4">MOVA Battery DPP Solution</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-slate-100 mb-4">Was du bekommst</h2>
         <p className="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto mb-16">
-          Ship EU-ready battery passports without Catena-X pricing or months of custom development.
+          Ein deterministischer Workflow-Layer, der sevDesk erg&auml;nzt &ndash; ohne Banking-Zugriff.
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
