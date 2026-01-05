@@ -1,12 +1,12 @@
 export const siteDetails = {
-    siteName: 'MOVA Battery DPP',
-    siteUrl: 'https://mova-dpp.com',
+    siteName: 'MOVA Invoice',
+    siteUrl: 'https://mova-invoice.com',
     metadata: {
-        title: 'Battery Pass Compliance 2027 | MOVA - Annex XIII Ready',
-        description: 'EU Battery Regulation Annex XIII passports in 5 minutes. No code required. Battery Pass Content Guidance compliant.',
+        title: 'MOVA Invoice | Rechnungs-Workflows mit sevDesk ohne Banking',
+        description: 'Deterministische Rechnungs-Workflows mit sevDesk. Kein Banking-Zugriff erforderlich.',
     },
-    language: 'en-us',
-    locale: 'en-US',
+    language: 'de-de',
+    locale: 'de-DE',
     siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`,
     googleAnalyticsId: '',
 }

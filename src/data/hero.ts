@@ -1,5 +1,5 @@
 export const heroDetails = {
-    heading: 'Smart, Secure, Simple Financial Management',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
+    heading: 'Rechnungen als Workflow – mit sevDesk, ohne Banking-Zugriff.',
+    subheading: 'Automatisiere Erstellung, Versand, Erinnerungen und Perioden-Export mit nachvollziehbarem Evidence-Log.',
     centerImageSrc: '/images/hero-mockup.webp',
 }
